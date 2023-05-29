@@ -1,0 +1,53 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    /* background-size: 100% 100%; */
+  
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  .row flex-lg-row-reverse align-items-center g-5 py-5{
+    margin-right: -20px;
+  }
+  .btn-outline-secondary btn-lg px-4{
+    
+    border: 2px solid white;
+  
+  
+  }
+  .btn-primary btn-lg px-4 me-md-2{
+    background-color: white;
+  }
+  .footer{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); ;
+  }
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+  .body{
+    margin-bottom: -100px;
+  }
+  
